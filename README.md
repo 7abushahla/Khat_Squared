@@ -29,8 +29,8 @@ conda activate cloudspace
 First, clone the dataset repository:
 
 ```bash
-git clone https://github.com/yourusername/khat2-dataset.git
-cd khat2-dataset
+git clone https://github.com/7abushahla/Khat_Squared.git
+cd Khat_Squared
 ```
 
 Ensure the following structure exists inside the `dataset/` folder:
@@ -48,9 +48,9 @@ dataset/
 
 #### 📦 Download the large assets:
 
-- [fonts_2K.zip (Google Drive)](https://your-fonts-link)
-- [images.zip (Google Drive)](https://your-images-link)
-- [words.pickle (Google Drive)](https://your-corpus-link)
+- [fonts_2K.zip (Google Drive)](https://drive.google.com/file/d/1Zii1J2yh8NL9A4Kjs5b8rdyUSQGHnGvg/view?usp=share_link)
+- [images.zip (Google Drive)](https://drive.google.com/file/d/1Zj80lhG9Us7-zRgi8bv3v3WJT1zIo4C6/view?usp=share_link)
+- [words.pickle (Google Drive)](https://drive.google.com/file/d/1hKd4x-FvgZiAtQdoHEZ-791FOSZ5e8oT/view?usp=share_link)
 
 Unzip the downloaded folders and place them directly inside the `dataset/` directory.
 
@@ -91,7 +91,7 @@ This will create a `data.csv` file in the specified directory, containing `img_p
 
 If you prefer not to generate the dataset yourself, you can directly download the pre-generated 2,000-font $Khat^2$ variant used in our study:
 
-👉 [Download: 2,000 Fonts × 2,000 Words (4M samples)](https://your-link-here)
+👉 [Download: 2,000 Fonts × 2,000 Words (4M samples)](https://drive.google.com/file/d/10rOgKsOINfPUdUKqtc-xEtgcmdvSDUF-/view?usp=share_link)
 
 ---
 
