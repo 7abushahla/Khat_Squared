@@ -11,9 +11,7 @@ For a chosen number *N* (e.g., 1,000), we randomly select *N* words from the cor
 
 During the synthetic data generation process, for every *(word, font)* pair, the system randomly selects one of the background images and applies random augmentations (such as distortions and blur) before exporting the final image. Ground-truth labels—mapped to the corresponding font names—are stored in a CSV file, and these images are later used to train a ResNet-18 convolutional neural network backbone as part of a style encoder.
 
-- Collected arabic fonts: link
-- main generation code, basic fonts, corpus, and backgrounds are borrowed from HATFormer[^3]. we edited them to generate single words instead of lines and to maek the lable the name of the font and to generate the $N×N$ samples as done in $Font^2$. we also edit the augmentaions to be simialr what is used in $Font^2$. 
-- we follow their training settings [^2] and train our ResNet-18 model to classify the 1,000,000 samples into the 1,000 font classes to learn the style representations needed to later learn arabic handwriting properly once integrated and made to train on real handwritten images.
+The generation code, background textures, corpus, and base font set are adapted from the HATFormer[^3] pipeline. We modified their codebase to generate single-word images instead of lines, to assign the font name as the class label, and to render a full $N×N$ grid of samples in the spirit of $Font^2$. We also adjusted the augmentations to better reflect the distortions used in $Font^2$.
 
 ## Dataset Generation
 ### Installing Dependencies
@@ -94,8 +92,6 @@ If you prefer not to generate the dataset yourself, you can directly download th
 👉 [Download: 2,000 Fonts × 2,000 Words (4M samples)](https://drive.google.com/file/d/10rOgKsOINfPUdUKqtc-xEtgcmdvSDUF-/view?usp=share_link)
 
 ---
-
-
 
 [^1]: https://github.com/aimagelab/font_square
 [^2]: https://arxiv.org/abs/2304.01842
