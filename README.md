@@ -1,1 +1,1 @@
-# Khat_Squared
+# $Khat^2$
