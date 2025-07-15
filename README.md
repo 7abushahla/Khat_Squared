@@ -5,7 +5,7 @@ This repository contains the code to generate and download the $Khat^2$ syntheti
 This work builds, in part, on the code and methodology of HATFormer[^3][^4], and makes use of the large Arabic corpus they compiled. We thank the authors for making their resources publicly available.
 
 <div align="center">
-  <img src="images/Khat1.png" height="400px" alt="Khat 1" />
+  <img src="images/Khat2.png" height="350px" alt="Khat 1" />
 </div>
 <p align="center"><em>Figure 1: Sample images from the synthetic $Khat^2$ dataset showing different words, fonts, backgrounds, and augmentations</em></p>
 
