@@ -6,8 +6,8 @@ This work builds, in part, on the code and methodology of HATFormer[^3][^4], and
 
 <div align="center" style="display: flex; flex-direction: column; align-items: center;">
   <div style="display: flex; gap: 10px;">
-    <img src="images/Khat1.png" height="200px" alt="Khat 1" />
-    <img src="images/Khat2.png" height="200px" alt="Khat 2" />
+    <img src="images/Khat1.png" height="100px" alt="Khat 1" />
+    <img src="images/Khat2.png" height="100px" alt="Khat 2" />
   </div>
   <p><em>Figure 1: Sample images from the synthetic $Khat^2$ dataset showing different words, fonts, backgrounds, and augmentations</em></p>
 </div>
