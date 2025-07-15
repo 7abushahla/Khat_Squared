@@ -4,6 +4,13 @@ This repository contains the code to generate and download the $Khat^2$ syntheti
 ## Acknowledgement 
 This work builds, in part, on the code and methodology of HATFormer[^3][^4], and makes use of the large Arabic corpus they compiled. We thank the authors for making their resources publicly available.
 
+<div align="center">
+  <img src="images/Khat1.png" height="230px" alt="Khat 1" />
+  <img src="images/Khat2.png" height="230px" alt="Khat 2" />
+  <p><em>Figure 1: Sample images from the synthetic $Khat^2$ dataset showing different words, fonts, backgrounds, and augmentations </em></p>
+</div>
+
+
 ## About
 Inspired by the $Font^2$ dataset[^1][^2], we constructed a large synthetic dataset of Arabic word images rendered in a wide variety of fonts—including those that mimic handwriting. In our pipeline, **2,000+** freely available Arabic calligraphic fonts were scraped from multiple websites, then manually verified to ensure they correctly render every Arabic character (with decorative fonts containing elements like hearts or stars discarded). Additionally, drawing inspiration from HATFormer[^3][^4], we collected **130+** paper background images and used the large Arabic corpus they compiled which contains over **8.2 million** words collected from diverse online sources, including Wikipedia.
 
